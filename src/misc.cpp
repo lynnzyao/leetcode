@@ -1,8 +1,11 @@
 #include <string>
 #include <bitset>
+#include <vector>
+#include <queue>
 
 
-// http://leetcode.com/problems/count-the-number-of-special-characters-ii/description/
+// 2026.05.27
+// http://leetcode.com/problems/count-the-number-of-special-characters-ii
 // int num_of_special_chars(std::string word) {
 //   uint64_t bs = 0, d = 0;
 //   for (char& c : word) {
@@ -24,3 +27,21 @@
 //   return (lc & uc).count();
 // }
 
+
+// 2026.05.29
+// https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum
+// int digit_sum(int n) {
+//   int r = 0;
+//   while (n > 9) {
+//     r += n % 10;
+//     n /= 10;
+//   }
+//   return r + n;
+// }
+// int minElement(std::vector<int>& nums) {
+//   std::priority_queue<int, std::vector<int>, std::greater<int>> q{};
+//   for (int& n : nums) {
+//     q.push(digit_sum(n));
+//   }
+//   return q.top();
+// }
