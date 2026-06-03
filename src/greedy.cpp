@@ -17,8 +17,8 @@ bool asteroids_destroyed(int mass, std::vector<int>& asteroids) {
 }
 
 
-// 2025.06.02
-// https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/
+// 2025.06.02-2025.06.03
+// https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/
 int earliest_finish_time(
   std::vector<int>& lst, std::vector<int>& ld, 
   std::vector<int>& wst, std::vector<int>& wd
